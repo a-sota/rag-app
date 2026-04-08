@@ -1,0 +1,7 @@
+RAG stands for Retrieval-Augmented Generation.
+RAG is a method that combines information retrieval with text generation.
+A retriever finds relevant documents, and a generator produces an answer based on them.
+Precision is the proportion of retrieved documents that are relevant.
+Recall is the proportion of relevant documents that are successfully retrieved.
+If document chunks are too small, important context may be split apart.
+If document chunks are too large, irrelevant information may be included.

@@ -1,14 +1,9 @@
 from pydantic import BaseModel
 
 
-class ChatRequest(BaseModel):
-    message: str
+class QuestionRequest(BaseModel):
+    question: str
 
 
-class ChatResponse(BaseModel):
+class QuestionResponse(BaseModel):
     answer: str
-
-
-class IngestResponse(BaseModel):
-    status: str
-    detail: str
